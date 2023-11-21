@@ -1,0 +1,91 @@
+<html>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <body>
+        
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="javascript:void(0)">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Mercedes</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">BWM</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:void(0)">Ford</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="text" placeholder="Search">
+                  <button class="btn btn-primary" type="button">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+  
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1583267746897-2cf415887172?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YXV0b21vYmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt="Mercedes" class="w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=242R&client=byo&paint=P0C6E&fabric=FMANL&sa=S01E6,S01MB,S02MA,S02VF,S0302,S0319,S0322,S0403,S0430,S0431,S043A,S0459,S0493,S0494,S04AT,S04GQ,S04UR,S0508,S0534,S0544,S05AS,S05DC,S0688,S06AC,S06AK,S06C4,S06CP,S06U2,S06WC,S0712,S0760,S0775&date=20230802&angle=40&quality=65&sharp=100&resp=png&BKGND=TRANSPARENT&width=767" alt="BMW" class="w-100">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cfx-wp-images.imgix.net/2022/03/New-2021-Ford-Explorer-Timberline-03-min-edited.jpg?auto=compress%2Cformat&focalpoint=focalpoint&fp-x=0.48121170163478927&fp-y=0.5157717195119693&ixlib=php-3.3.0&s=f57b109e787cd3f9c1c3c94038c876b5" alt="Ford" class="w-100">
+      </div>
+    </div>
+     <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRY1ftOCK4_N-Y5BI1i2Q7pVMRG_Ccu653ZjWWX9QRgXnTA9veRuWL4NkvgFuJVx-Htaw&usqp=CAU" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Auto-price: $21000</h4>
+      <p class="card-text">Nice and elegante car</p>
+      <a href="#" class="btn btn-primary">Type-of-car</a>
+    </div>
+  </div>
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src="https://hips.hearstapps.com/hmg-prod/images/21c0550-001-1630936200.jpg?crop=0.835xw:1.00xh;0.0833xw,0&resize=768:*" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">Mercedes</h4>
+      <p class="card-text">Luxury and space meat</p>
+      <a href="#" class="btn btn-primary">Type-of-car</a>
+    </div>
+  </div><div class="card" style="width:400px">
+    <img class="card-img-top" src="https://static.tcimg.net/vehicles/primary/a0b97f9bd7c0f4aa/2024-BMW-X3_M-white-full_color-driver_side_front_quarter.png" alt="Card image">
+    <div class="card-body">
+      <h4 class="card-title">BMW</h4>
+      <p class="card-text">Speed and strenght</p>
+      <a href="#" class="btn btn-primary">Type-of-car</a>
+    </div>
+
+  </div>
+    </body>
+</html>
