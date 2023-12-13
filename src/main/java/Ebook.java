@@ -1,26 +1,57 @@
 public class Ebook extends Book{
-    public void Title() {
-        name2="le vent et la foudre";
-        ISBN2=1;
-        NumburofBook=90;
-        System.out.println("Front page"+" : "+ name2);
-        System.out.println("isbn"+"  :"+ ISBN2);
-        System.out.println("NumburofBook"+"  :"+ 90);
+
+    private String format;
+    private int size;
+     private double price;
+
+    public Ebook(String title, int id, String author, double price, int ISBN) {
+        super(title, id, author, price, ISBN);
+    }
+
+
+    public String getFormat() {
+        return format;
+    }
+
+    public void setFormat(String format) {
+        this.format = format;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
 
 
 
-        name="La souffrance";
-        Frontpage="name";
-        isbn="ISBN";
-        ISBN= 2;
-        NumburofBook=24;
-        System.out.println(Frontpage+"  :"+      name);
-        System.out.println(isbn+ " : "+  ISBN);
-        System.out.println("NumburofBook"+"  :" + NumburofBook);
 
+    @Override
+    public String toString() {
+        return "Ebook{" +
+                "format='" + format + '\'' +
+                ", size=" + size +
+                ", price=" + price +
+                "} " + super.toString();
     }
 
 
     }
+
+
+
+
+
+
 
 
